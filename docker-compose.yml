@@ -8,4 +8,4 @@ services:
       - "80:3000"
     volumes:
       - ".:/home/app"
-    command: "node ./bin/www"
+    command: "bash -c 'npm install && npm start'"
