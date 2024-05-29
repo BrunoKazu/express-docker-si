@@ -19,7 +19,7 @@ services:
       MYSQL_USER: brunoadm          # Nome do usuário a ser criado
       MYSQL_PASSWORD: Ficr@123bc0123  # Senha do usuário a ser criado 
     ports:
-      - "9856:3306"  
+      - "3306:3306"  
     volumes:
       - ./db:/var/lib/mysql
 
