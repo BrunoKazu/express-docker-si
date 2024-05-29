@@ -1,1 +1,1 @@
-para exercutar o serve use o terminal node ./bin/www 
+para exercutar o serve use o terminal node ./bin/www ou sudo docker-compose up
